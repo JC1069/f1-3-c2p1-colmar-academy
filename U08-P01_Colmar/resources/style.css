@@ -1,0 +1,218 @@
+
+
+body{
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+
+	/*Logo and Navigation*/
+
+.header{
+	display: flex;
+	padding: 7px 0 7px 24px;		 	
+}
+
+.logo{
+	display: flex;	
+	align-items: center;
+	line-height: 32px;
+	margin: 16px 0px 16px 24px;
+}
+
+.navButtons{
+	display: flex;	
+	margin: 24px 24px 24px auto;  
+}
+
+.navButtons li{
+	display: inline-block;
+	margin-right: 16px;
+	font-size: 1.5rem;		
+}
+
+.navButtons a{
+	text-decoration: none;
+}
+
+	/*Banner*/
+
+
+.banner{
+	display: flex;	
+}
+
+.banner img{
+	padding: 32px 24px;	
+	width: 60%;
+	height:50%;
+	
+}
+
+.banner a{
+	text-decoration: none;
+}
+
+.banner span{
+	margin-left: 24px;
+}
+
+.banner h1{
+	font-size: 5rem;
+}
+
+.banner h2{
+	font-size: 4 rem;
+}
+
+.banner h3{
+	font-size: 3 rem;
+}
+
+	/*Main*/
+
+
+.mainContainer{
+	display: flex;	
+	width: 100%;
+}
+
+.main img{
+	display: block;
+	padding: 32px 24px;	
+	width: 750px;		
+}
+
+.main span{
+	display: block;	
+}
+
+.main h2{
+	font-size: 4 rem;
+}
+
+.info{
+	display: block;	
+	margin-left: 24px;
+	padding-left: 16px;
+}
+
+.info span{
+	display: block;	
+	margin-left: 16px;	
+}
+
+.info a{
+	text-decoration: none;
+}
+
+.infoDate{
+	display: flex;		
+}
+
+.infoDate img{
+	width: 35%;
+	padding: 16px;	
+}
+
+.infoCampus{
+	display: flex;
+}
+
+.infoCampus img{
+	width: 35%;
+	padding: 16px;	
+}
+
+.infoGuest-Lecture{
+	display: flex;
+}
+
+.infoGuest-Lecture img{
+	width: 35%;
+	padding: 16px;	
+}
+
+
+	/*Courses*/
+
+.courses{
+	display: block;	
+	width: 100%;	
+}
+
+.courseHeading h1{
+	display: block;
+	margin: 32px;
+	text-align: center;		
+}
+
+.courseItems{
+	display: flex;
+	flex-wrap: wrap;	
+	margin: 12px;
+	justify-content: space-around;			
+}
+
+.courseItems img{
+	width: 90%;
+	margin: 32px 16px 16px 32px;		
+	flex: 1;
+}
+
+.courseSoftware{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseComputer-Art{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseDesign{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseData{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseSoftware{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseBusiness{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.courseMarketing{
+	display: block;
+	width: 20%;	
+	float: center;
+}
+
+.exhibitsItems{
+	display: block;	
+	width: 100%;	
+}
+
+.exhibitsItems h1{
+	display: block;
+	margin: 32px;
+	text-align: center;
+}
+
+.exhibitCases{
+	display: block;
+}
